@@ -11,7 +11,7 @@ env.config();
 
 
 const app = express();
-const mongoURL = "mongodb+srv://tarun:tarunsai2341@cluster0.tbd0fbb.mongodb.net/?retryWrites=true&w=majority";
+const mongoURL = "";
 const client = new MongoClient(mongoURL, { useUnifiedTopology: true });
 
 let db;
